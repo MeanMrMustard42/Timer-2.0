@@ -27,7 +27,7 @@ public class Timer extends Thread {
 	 * leap days/leap seconds because that would require more work. See specific
 	 * method documentation for more info.
 	 * 
-	 * @author unimportant
+	 * @author github.com/MeanMrMustard42
 	 * @version 1.1
 	 * @since 2017-4-8, JDK 8
 	 */
