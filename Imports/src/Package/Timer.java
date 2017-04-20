@@ -406,7 +406,13 @@ public class Timer extends Thread {
 		return "Timer has run for " + totalYears + " years, or " + totalWeeks + " weeks, " + totalDays + "days, or " + totalHours + " hours, " + totalMinutes
 				+ " minutes, or " + x + " seconds in total.";  
 	}
-
+     public boolean isAtZero() {
+         if (x == 0) {
+          return true;
+           } else {
+            return false;
+     》    }
+	     }
 /// ***********************************************************************************\\\
 
 	public String toString() {
